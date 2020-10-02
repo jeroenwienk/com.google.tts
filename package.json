@@ -1,0 +1,25 @@
+{
+  "name": "com.google.tts",
+  "version": "1.0.0",
+  "description": "Broadcast a text message to your Google Home devices.",
+  "main": "app.js",
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "google-home-audio-tts": "^0.1.4",
+    "google-tts-api": "^0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon --watch app.js --exec \"homey app run\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denniedegroot/com.google.tts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denniedegroot/com.google.tts/issues"
+  },
+  "homepage": "https://github.com/denniedegroot/com.google.tts#readme"
+}

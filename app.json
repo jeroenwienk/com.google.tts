@@ -4,8 +4,8 @@
         "en": "Google TTS"
     },
     "version": "1.4.0",
-    "compatibility": ">=2.5.0",
-    "sdk": 2,
+    "compatibility": ">=5.0.0",
+    "sdk": 3,
     "author": {
         "name": "Dennie de Groot",
         "email": "mail@denniedegroot.nl",
